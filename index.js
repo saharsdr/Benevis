@@ -18,7 +18,7 @@ btn.addEventListener('click',function(){
   var i= window.localStorage.length;
   
   if(message.value===""){
-    ;
+    alert("لطفا چیزی بنویسید.");
     console.log("it is nothhing");
   }
   else{
