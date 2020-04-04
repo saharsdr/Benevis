@@ -48,6 +48,7 @@ for(var i=0,x=localStorage.length;i<x;i++){
 
 for(var i=0;i<icons.length;i++){
   icons[i].addEventListener('click',function(){
+    message.value="";
     var current=document.getElementsByClassName('active');
     for(var j=0;j<icons.length;j++){
       icons[j].className+=" active";

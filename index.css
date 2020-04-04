@@ -103,6 +103,17 @@ form h2{
     margin-top: 30px;
 }
 
+@keyframes open{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+
+    }
+}
+
 form textarea{
     direction: rtl;
     height: 400px;
@@ -118,6 +129,11 @@ form textarea{
     padding: 2rem;
     border-radius: 1rem;
     border:none;
+    
+}
+
+div.mesg{
+    animation: ease-out 1s open;
 }
 
 form a{
