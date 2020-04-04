@@ -2,14 +2,21 @@
 
 /* ##################### Mobile ####################### */
 @media all and (max-width: 576px){
+    html{
+        font-size: 80%;
+    }
     #khas p{
-        width: 100%;
+        width: auto;
     }
     i.active{
         font-size: 3rem;
     }
+    .fa-close{
+        padding: 15px 18px;
+    
+    }
     .container {
-        width: 100%;
+        width: auto;
         margin: auto;
         padding: 4% 0;
         text-align: center;
@@ -23,6 +30,10 @@
     }
     i.active{
         font-size: 3rem;
+    }
+    .fa-close{
+        padding: 15px 18px;
+    
     }
     .container {
         width: 90%;
