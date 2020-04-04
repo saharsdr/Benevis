@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    font-family: 'Samim',Arial, Helvetica, sans-serif;
+    font-family: 'Samim', tahoma ,Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
     background: #F9F9F9;
     background-size: cover;
@@ -99,11 +99,17 @@ form .container{
     
 }
 
+form h2{
+    margin-top: 30px;
+}
 
 form textarea{
-    height: 200px;
+    direction: rtl;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
     text-align: right;
-    resize: none;
+    resize: vertical;
     outline: none;
     overflow: auto;
     font-family: 'Samim',Arial, Helvetica, sans-serif;
@@ -111,15 +117,17 @@ form textarea{
     background: #CCCCCC;
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border:none;
 }
 
 form a{
-    padding:5px 10px;
+    padding:5px 30px;
     background-color: #10A5E8;
     border-radius: 11px;
     color: white;
     cursor: pointer;
+    font-size: 2rem;
+    
     
 }
 

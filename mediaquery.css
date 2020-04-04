@@ -3,13 +3,13 @@
 /* ##################### Mobile ####################### */
 @media all and (max-width: 576px){
     html{
-        font-size: 80%;
+        font-size: 90%;
     }
     #khas p{
         width: auto;
     }
     i.active{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .fa-close{
         padding: 15px 18px;
@@ -21,10 +21,14 @@
         padding: 4% 0;
         text-align: center;
     }
+    
 }
 
 /* ##################### Tablet ####################### */
 @media all and (max-width: 768px){
+    html{
+        font-size: 80%;
+    }
     #khas p{
         width: 100%;
     }
@@ -32,7 +36,7 @@
         font-size: 3rem;
     }
     .fa-close{
-        padding: 15px 18px;
+        padding: 15px 20px;
     
     }
     .container {
